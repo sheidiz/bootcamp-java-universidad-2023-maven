@@ -16,7 +16,7 @@ public class Menu {
 		Integer op = null;
 		do {
 			try {
-				System.out.println("Choose Option");
+				System.out.println("Choose Option: ");
 				op = teclado.nextInt();		
 			}catch (Exception e) {
 				System.err.println("Invalid Operation");

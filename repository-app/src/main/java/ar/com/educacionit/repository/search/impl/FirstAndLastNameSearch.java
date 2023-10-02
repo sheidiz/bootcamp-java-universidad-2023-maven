@@ -16,10 +16,10 @@ public class FirstAndLastNameSearch implements Search {
 		
 		List<AddressBook> filteredList = new ArrayList<>();
 		
-		for (AddressBook addresBook : sourceList) {
-			if(addresBook.getName().toLowerCase().contains(this.firstName.toLowerCase()) 
-				&& addresBook.getName().contains(this.lastName)) {
-				filteredList.add(addresBook);
+		for (AddressBook addressBook : sourceList) {
+			if(addressBook.getName().toLowerCase().contains(this.firstName.toLowerCase()) 
+				&& addressBook.getName().contains(this.lastName)) {
+				filteredList.add(addressBook);
 			}
 		}
 		
